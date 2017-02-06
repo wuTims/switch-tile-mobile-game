@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tim_w.theswitchgame.MainActivity"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:alignmentMode="alignBounds"
+        android:clipToPadding="false"
+        android:columnCount="4"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:rowCount="3"
+        android:adjustViewBounds="true"
+        android:useDefaultMargins="false" >
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="0"
+            android:onClick="changeBtnState"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:padding="0dp"
+            android:text="1"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="2"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="3"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="4"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="5"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="6"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="7"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="8"
+            android:onClick="changeBtnState"
+            />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="9"
+            android:onClick="changeBtnState"
+            />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="10"
+            android:onClick="changeBtnState"
+            />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="11"
+            android:onClick="changeBtnState"
+            />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="12"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="13"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="14"
+            android:onClick="changeBtnState"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="0dp"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_state_selector"
+            android:textColor="@color/btn_color"
+            android:text="15"
+            android:onClick="changeBtnState"
+            />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:tag="A"
+            android:id="@+id/switchA"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:textOff="A"
+            android:textOn="A"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="B"
+            android:id="@+id/switchB"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:textOff="B"
+            android:textOn="B"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="C"
+            android:id="@+id/switchC"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:textOff="C"
+            android:textOn="C"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="D"
+            android:id="@+id/switchD"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:textOff="D"
+            android:textOn="D"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="E"
+            android:id="@+id/switchE"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:textOff="E"
+            android:textOn="E"
+            android:onClick="evaluateSwitch"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:tag="F"
+            android:id="@+id/switchF"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textOff="F"
+            android:textOn="F"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="G"
+            android:id="@+id/switchG"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textOff="G"
+            android:textOn="G"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="H"
+            android:id="@+id/switchH"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textOff="H"
+            android:textOn="H"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="I"
+            android:id="@+id/switchI"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textOff="I"
+            android:textOn="I"
+            android:onClick="evaluateSwitch"/>
+        <ToggleButton
+            android:tag="J"
+            android:id="@+id/switchJ"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textOff="J"
+            android:textOn="J"
+            android:onClick="evaluateSwitch"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MOVE COUNT: "
+                android:textSize="14dp"
+                android:id="@+id/countView" />
+
+            <TextView
+                android:id="@+id/countField"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEQUENCE: "
+                android:textSize="14dp"/>
+
+            <ScrollView
+                android:id="@+id/seqView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars = "vertical"
+                android:scrollbarStyle="insideInset"
+                >
+                <TextView
+                    android:id="@+id/seqText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dp"
+                    android:layout_weight="1.0"
+                    />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOLUTION: "
+                android:textSize="14dp"
+                android:id="@+id/solnView" />
+
+            <TextView
+                android:id="@+id/solnField"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/newBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="new"
+            android:onClick="randomizeButtons"/>
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="reset"
+            android:onClick="resetBoard"/>
+        <Button
+            android:id="@+id/autoBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="auto"
+            android:onClick="autoSolve"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
